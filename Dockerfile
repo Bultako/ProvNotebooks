@@ -3,11 +3,13 @@
 
 FROM continuumio/miniconda:4.3.27p0
 
+# compilers
+RUN apt-get install -y build-essential
 
 # install good version of Jupyter notebook
 RUN pip install --no-cache-dir notebook==5.*
 
-# install last version of gammapy
+# install noworkflow
 RUN pip install --no-cache-dir noworkflow[all]
 
 # add now user running the jupyter notebook process
