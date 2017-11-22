@@ -1,7 +1,7 @@
 # This is the Dockerfile to run ProvNotebooks on Binder
 #
 
-FROM continuumio/miniconda
+FROM continuumio/anaconda
 
 # install good version of Jupyter notebook
 RUN pip install --no-cache-dir notebook==5.*
