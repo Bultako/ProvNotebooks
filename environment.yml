@@ -1,6 +1,0 @@
-name: prov-notebooks
-
-dependencies:
-  - python=3.5
-  - pip:
-    - noworkflow[all]
