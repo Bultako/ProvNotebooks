@@ -1,0 +1,6 @@
+name: prov-notebooks
+
+dependencies:
+  - pip
+  - pip:
+    - noworkflow[all]
